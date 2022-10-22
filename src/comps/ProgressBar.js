@@ -1,5 +1,4 @@
 import React from "react";
-// import useStorage from "../hooks/useStorage";
 import useStorage from '../hooks/useStorage';
 
 const ProgressBar =({file,setFile})=>{ 
