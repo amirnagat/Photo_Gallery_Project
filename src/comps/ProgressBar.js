@@ -7,5 +7,5 @@ const ProgressBar =({file,setFile})=>{
     return(
         <div className="prgress-bar">progress </div>
     )
-}
+} 
 export default ProgressBar
