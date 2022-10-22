@@ -5,8 +5,8 @@ import UploadForm from './comps/UpoloadForm';
 function App() {
   return (
     <div className="App">
-      <Title/>
-      <UploadForm/>
+      <Title/> 
+      <UploadForm/> 
     </div>
   );
 }
