@@ -5,7 +5,7 @@ const ProgressBar =({file,setFile})=>{
     const {url,progress} = useStorage(file) 
     console.log(progress,url); 
     return(
-        <div className="prgress-bar">progress</div>
+        <div className="prgress-bar">progress </div>
     )
 }
 export default ProgressBar
