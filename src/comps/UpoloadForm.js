@@ -11,8 +11,8 @@ const UploadForm = ()=>{
     const changeHander = (e)=>{
         let selected = e.target.files[0];
         if (selected && types.includes(selected.type)) {
-            setFile(selected);
-            setError("")
+            setFile(selected); 
+            setError(" ")
         }else{
             setFile(null)
             setError("please select png or jpeg Image")
