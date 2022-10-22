@@ -12,10 +12,10 @@ const UploadForm = ()=>{
         let selected = e.target.files[0];
         if (selected && types.includes(selected.type)) {
             setFile(selected); 
-            setError(" ")
+            setError("")
         }else{
             setFile(null)
-            setError("please select png or jpeg Image.")
+            setError("please select png or jpeg Image. ")
         }
     }
     return(
